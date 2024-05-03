@@ -1,0 +1,38 @@
+{
+  "name": "circle-bounty-2-wallet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
+  },
+  "dependencies": {
+    "@circle-fin/user-controlled-wallets": "^3.0.0",
+    "@circle-fin/w3s-pw-web-sdk": "^1.0.10",
+    "@mantine/core": "^7.8.1",
+    "@mantine/form": "^7.8.1",
+    "@mantine/hooks": "^7.8.1",
+    "@mantine/notifications": "^7.8.1",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.43.0",
+    "@tabler/icons-react": "^3.3.0",
+    "@tanstack/react-query": "^5.32.1",
+    "mantine-form-zod-resolver": "^1.1.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.23.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-css": "^0.9.2",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
