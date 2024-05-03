@@ -1,0 +1,20 @@
+{
+  "name": "circle-bounty-2-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "supabase:start": "supabase start",
+    "supabase:status": "supabase status",
+    "supabase:migration:up": "supabase migration up",
+    "supabase:function:serve": "supabase functions serve",
+    "supabase:stop": "supabase stop",
+    "supabase:stop:no-backup": "supabase stop --no-backup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "supabase": "^1.164.1"
+  }
+}

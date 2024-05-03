@@ -1,0 +1,5 @@
+.header {
+  height: rem(60px);
+  padding: var(--mantine-spacing-md);
+  margin-bottom: var(--mantine-spacing-md);
+}
